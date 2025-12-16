@@ -1,0 +1,78 @@
+:root {
+  /* COLORS */
+  /* ===== Core Palette ===== */
+  --color-primary: #8200db;
+  --color-primary-opac50: #9b3edd65;
+  --color-primary-hover: #610eaf;
+  --color-primary-bg: #ede9fe;
+  --color-primary-bg-hover: #d6cff4;
+  --color-secondary: #be185d;
+  --color-secondary-bg: #fce7f3;
+  --color-secondary-bg2: #f6cde4;
+  --color-secondary-hover: #9d074a;
+  --color-text: #1e1e1e;
+  --color-text-secondary: #6b7280;
+  --color-text-secondary-opac50: #6b728052;
+  --color-bg: #f9fafb;
+  --color-border: #e5e7eb;
+
+  --color-gradient-start: #ec4899; /* Pink */
+  --color-gradient-start-opac50: #ec489a85;
+  --color-gradient-start-hover: #bc1b6b;
+  --color-gradient-end: #8b5cf6; /* Purple */
+  --color-gradient-end-opac50: #8a5cf683;
+
+  /* TYPOGRAPHY */
+  --font-base: 'Inter', system-ui, sans-serif;
+  --font-heading: 'Poppins', sans-serif;
+
+  /* SPACING */
+  --space-xs: 4px;
+  --space-sm: 8px;
+  --space-md: 16px;
+  --space-lg: 24px;
+  --space-xl: 32px;
+
+  /* BREAKPOINTS (mobile-first) */
+  //  480px; /* small phones */
+  //  768px; /* tablets */
+  //  1024px; /* laptops */
+  //  1280px; /* large desktops */
+  //  1536px; /* extrua large screens */
+
+  /* CONTAINERS (max-widths) */
+  --container-xs: 540px; /* small mobile layouts */
+  --container-sm: 720px; /* tablets */
+  --container-md: 960px; /* desktops */
+  --container-lg: 1360px; /* large desktops */
+
+  /* RADII + SHADOWS */
+  --radius-sm: 4px;
+  --radius-md: 8px;
+  --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.05);
+  --shadow-md: 0 2px 6px rgba(0, 0, 0, 0.1);
+  --shadow-lg: 0 3px 6px rgba(0, 0, 0, 0.25);
+
+  /* TRANSITIONS */
+  --transition: 0.2s ease-in-out;
+
+  /* ===== Feedback ===== */
+  --color-success: #abffca;
+  --color-success-text: #147638;
+  --color-warning: #fbd74a;
+  --color-warning-text: #866f10;
+  --color-error-light: #ffd4d4;
+  --color-error-hover: #ffb2b2;
+  --color-error: #fb7e7e;
+  --color-error-text: #da0b0b;
+  --color-info: #72a6fb;
+  --color-info-text: #103775;
+  --color-warning-alert: rgb(255, 250, 197);
+}
+
+[data-theme='dark'] {
+  --color-secondary: #1e1e1e;
+  --color-text: #f2f2f2;
+  --color-bg: #121212;
+  --color-border: #444;
+}
